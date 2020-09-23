@@ -1,0 +1,46 @@
+{
+    "name": "vscode-oslo",
+    "displayName": "OSLO",
+    "description": "OSLO CCL macro language support for Visual Studio Code",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/heterophyllus/vscode-oslo.git"
+    },
+    "license": "MIT",
+    "publisher": "heterophyllus",
+    "icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "OSLO",
+        "CCL"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "oslo",
+                "aliases": [
+                    "OSLO",
+                    "oslo"
+                ],
+                "extensions": [
+                    ".ccl",
+                    ".CCL"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "oslo",
+                "scopeName": "source.oslo",
+                "path": "./syntaxes/oslo.tmLanguage.json"
+            }
+        ]
+    }
+}

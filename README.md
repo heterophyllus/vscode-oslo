@@ -6,8 +6,7 @@ This extension adds syntax highlighting for [OSLO(Optics Software for Layout and
 ![syntax](images/syntax.png)
 
 ## Note
-OSLO CCL/SCP are based on the C programming language.
-This extension therefore essentially derives from [C/C++ syntax settings](https://github.com/jeff-hykin/cpp-textmate-grammar/).
+This extension derives from [C/C++ syntax settings](https://github.com/jeff-hykin/cpp-textmate-grammar/).
 
 ## Changelog
 Read the [CHANGELOG](CHANGELOG.md) to know what has changed over the last few versions of this extension.
